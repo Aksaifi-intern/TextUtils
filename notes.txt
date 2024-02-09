@@ -1,0 +1,8 @@
+basicaly there are two folder public or src, src ke ander ham apne react component ko dalenge  
+src me, app.js hmara ak component hai or index.js  jo hai vo hmara entry point hai
+react function based component use krti hai
+this , hota hai window object  js me
+react me jsk use hoti hai isme sirf do change hai, 1. class ke bdle classs name or label me for jo us hota hai usme htmlFor
+(props)= custom component  props basicallly input ki tare man lo hamne value set krdi , then hm direct change krenge to automactically server me change ho jayegi
+for example:  <Navbar title="TextUtils" ,,,,{props.title} , props.title hmne set kr diya navbar me to ab title me kitni bar nhi update kar sktha hu vo automatically update ho jayega
+state:  handleChange(), that is used to set a new state for the input

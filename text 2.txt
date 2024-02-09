@@ -1,0 +1,17 @@
+ return (
+
+    <>
+
+      <Navbar title="TextUtils" home="Home" aboutText="AboutUs" mode={mode} toggleMode={toggleMode} />
+      <Alert alert={alert} />
+      <div className="container my-3" >
+      <TextForm showAlert={showAlert} heading="Enter the Text Here" mode={mode} />
+      <About />
+
+    </div>
+
+    </>
+
+  );
+}
+export default App;
